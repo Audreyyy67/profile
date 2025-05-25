@@ -1,0 +1,42 @@
+body {
+  background-color: #f5f5f5; /* 淺灰背景 */
+  color: #333333;            /* 深灰文字，清楚好讀 */
+}
+
+header, footer {
+  background-color: #e0e0e0; /* 淺一階的灰，區分區塊 */
+  color: #333333;
+  padding: 1rem 0;
+}
+
+h1, h2, h3 {
+  color: #222222;            /* 標題略深，更有層次 */
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .nav-link {
+  color: #444444;            /* 導覽列文字，維持中深灰 */
+}
+
+.card {
+  background-color: #ffffff; /* 卡片白底，清爽明亮 */
+  border: 1px solid #dddddd; /* 淺灰邊框 */
+}
+
+.card-title {
+  color: #222222;            /* 卡片標題深灰 */
+}
+
+.card-text {
+  color: #555555;            /* 內文使用中灰，對比清晰 */
+}
+
+button {
+  background-color: #cccccc; /* 淺灰按鈕，統一色系 */
+  color: #222222;
+  border: none;
+}
+
+button:hover {
+  background-color: #bbbbbb; /* hover 再深一點點的灰，增加互動感 */
+}
